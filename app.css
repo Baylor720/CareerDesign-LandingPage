@@ -1,0 +1,348 @@
+*{
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body, html{
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+
+/* NAVBAR */
+#nav .container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.navbar .navbar-brand{
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+.navbar-light #logo{
+    color: #003222;
+}
+
+i{
+    font-size: 2rem;
+    text-align: center;
+}
+
+i.fab.fa-linkedin-in{
+    color: #58BFA7;
+}
+
+i.fab.fa-linkedin-in:hover{
+    color: #4C736A;
+}
+
+i.fab.fa-google-plus-g{
+    color: #58BFA7;
+}
+
+i.fab.fa-google-plus-g:hover{
+    color: #4C736A;
+}
+
+i.fab.fa-twitter{
+    color: #58BFA7;
+}
+
+i.fab.fa-twitter:hover{
+    color: #4C736A;
+}
+
+i.fab.fa-facebook-f{
+    color: #58BFA7;
+}
+
+i.fab.fa-facebook-f:hover{
+    color: #4C736A;
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9));
+    /* background: url(images/desk3.jpg) no-repeat; */
+    background: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    overflow: hidden;   
+    background-image: linear-gradient(rgba(40, 50, 74, 0.08), rgba(40, 50, 74, 0.08)), 
+    url("https://lh3.googleusercontent.com/YCVc8GO77ShhN9a1ZpVF-AwUQkOwelaXQRjA0JIzIY9WUZjKb7Z1JgUeTBtmvALFO-0l9HbV8JkKMoygpvASCg=w1294");
+}
+
+body > div.jumbotron > div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.jumbotron .display-4{
+    font-family: 'Playfair Display', serif;
+    padding: 10px;
+    color: #003222;
+    font-size: 3em;
+}
+
+.jumbotron .lead{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    font-size: 1.55rem;
+    color: #003222;
+}
+
+.jumbotron .btn{
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.jumbotron .consultation{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 0;
+    color: #003222;
+}
+
+a.btn.btn-info.btn-lg{
+    padding: 24px;
+    font-size: 1.5rem;
+    border-radius: 0px;
+}
+
+body > div.jumbotron > div > div > div > a{
+    background: #437373;
+    border: #437373;
+}
+
+body > div.jumbotron > div > div > div > a:hover{
+    background: #26403D;
+    border: none;
+}
+/* BRINGING P.O.M */
+.peace{
+    width: 100%;
+    margin: 0;
+    padding: 100px 10px 170px 10px;
+    color: #003222;
+}
+
+.sec2-head{
+    font-family: 'Playfair Display', serif;
+}
+
+.sec2-p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.6rem;
+    padding-top: 25px;
+}
+
+.description{
+    margin: 20px;
+    padding: 70px 10px;
+}
+
+.description-title{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.description-text{
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.35rem;
+}
+
+.description hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    width: 40%;
+}
+
+/* STATS SECTION */
+#stats .container-fluid{
+    background-color: #f2f4f7;
+    padding: 60px;
+}
+
+#stats .num-head{
+    font-family: 'Playfair Display', serif;
+    font-size: 4rem;
+    color: #003222;
+}
+
+#stats .text-name{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #003222;
+}
+
+/* PROFILE SECTION */
+#profile .row{
+    padding-top: 220px;
+    padding-bottom: 220px;
+}
+
+#profile img{
+    height: 450px;
+    box-shadow: 10px 10px grey;
+    margin-left: 150px;
+}
+
+#profile h3{
+    font-family: 'Playfair Display', serif;
+    color: #003222;
+    font-size: 2.75rem;
+    margin-left: 300px;
+}
+
+#profile p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #003222;
+    font-size: 1.25rem;
+    margin-left: 300px;
+    padding-right: 125px;
+}
+
+/* READY SECTION */
+#ready{
+    background-color: #28324b;
+    padding: 150px 0px;
+}
+
+#ready h2{
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    padding: 10px 10px;
+}
+
+#ready p{
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.55rem;
+}
+
+#ready a.btn{
+    margin: 10px 300px;
+    text-transform: uppercase;
+}
+
+#ready > div > div > a{
+    background: #437373;
+    border: #437373;
+}
+
+#ready > div > div > a:hover{
+    background: #26403D;
+    border: #26403D;
+}
+
+#ready > div > div{
+    margin: 0;
+}
+
+#stats > div > div{
+    margin: 0;
+}
+
+body > div.container.peace > div.row.description.text-center.d-flex.justify-content-around{
+    margin: 0;
+}
+
+body > div.container.peace > div:nth-child(1){
+    margin: 0;
+}
+
+body > div.container.peace > div:nth-child(2){
+    margin: 0;
+}
+
+body > div.jumbotron > div > div{
+    margin: 0;
+}
+
+/* FOOTER */
+footer{
+    padding: 40px;
+}
+
+p.align-self-center{
+    margin-bottom: 0;
+}
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 992px) {
+
+    /* NAVBAR */
+    button.navbar-toggler.collapsed{
+        border: 0px;
+        outline: 0px;
+        float: right;
+    }
+
+    .navbar-toggler:focus, .navbar-toggler:active {
+        outline: none;
+        box-shadow: none;
+      }
+
+     button.navbar-toggler{
+          border: none;
+      }
+
+    /* PEACE SECTION */
+    .peace .col-lg-4{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    div.container.peace{
+        padding-bottom: 0;
+    }
+
+    body > div.container.peace > div.row.description.text-center.d-flex.justify-content-around{
+        padding-top: 10px;
+    }
+
+    /* STAT SECTION */
+    #stats.col-md-3.stat-sec{
+        padding-top: 40px;
+    }
+
+    /* PROFILE SECTION */
+    #profile img{
+        height: 350px;
+        width: 300px;
+        padding-bottom: 0px;
+        box-shadow: none;
+        margin: 50px;
+    }
+
+    #profile .row{
+        padding: 100px 50px;
+        margin: 0;
+    }
+
+    #profile h3{
+        margin-left: 0;
+    }
+    
+    #profile p{
+        margin-left: 0;
+        padding-right: 0px;
+    }
+
+    /* READY SECTION */
+
+    #ready a.btn.btn-info.btn-lg{
+        margin: 10px 50px;
+    }
+  }
